@@ -1,0 +1,83 @@
+# This file is part of Chillingeffects.
+# 
+# Copyright (c) 2013 President and Fellows of Harvard College
+# 
+# Chillingeffects is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+# 
+# Chillingeffects is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+# 
+# You should have received a copy of the GNU General Public License
+# along with Chillingeffects.  If not, see <http://www.gnu.org/licenses/>.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: chillingeffectshk\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-02-24 23:25-0800\n"
+"PO-Revision-Date: 2015-02-24 23:25-0800\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: oktskzy k <oktskzyk@users.noreply.github.com>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: app/views/notices/_dmca_form.html.erb:2
+msgid "Report a DMCA Takedown Notice"
+msgstr ""
+
+#: app/views/notices/_dmca_form.html.erb:3
+msgid "If you have sent or received a DMCA takedown notice and want to submit it to our database, fill out the form below."
+msgstr ""
+
+#: app/views/notices/_dmca_form.html.erb:4
+msgid "Please do not include phone numbers, email addresses, personal name, or other private information other than those of the complainant."
+msgstr ""
+
+#: app/views/notices/_dmca_form.html.erb:8
+msgid "Step 1."
+msgstr ""
+
+#: app/views/notices/_dmca_form.html.erb:8
+msgid "Describe the Notice"
+msgstr ""
+
+#: app/views/notices/_dmca_form.html.erb:10
+msgid "Provide us with information about the DMCA takedown notice you"
+msgstr ""
+
+#: app/views/notices/_dmca_form.html.erb:10
+msgid "sent"
+msgstr ""
+
+#: app/views/notices/_dmca_form.html.erb:10
+msgid "or"
+msgstr ""
+
+#: app/views/notices/_dmca_form.html.erb:10
+msgid "received."
+msgstr ""
+
+#: app/views/notices/_dmca_form.html.erb:15
+msgid "If the notice you sent/received had a subject line, enter it here"
+msgstr ""
+
+#: app/views/notices/_dmca_form.html.erb:21
+msgid "Sent via"
+msgstr ""
+
+#: app/views/notices/_dmca_form.html.erb:21
+msgid "Online form, Email, Postal mail, etc."
+msgstr ""
+
+#: app/views/notices/_dmca_form.html.erb:36
+msgid "Did the recipient of the notice take action in response?"
+msgstr ""

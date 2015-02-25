@@ -1,4 +1,5 @@
 class ApplicationController < ActionController::Base
+  before_filter :set_gettext_locale
   layout :layout_by_resource
 
   rescue_from CanCan::AccessDenied do |ex|

@@ -38,9 +38,10 @@ gem 'ruby-progressbar'
 gem 'fast_gettext', '~> 0.7.0'
 gem 'gettext_i18n_rails', '~> 0.9.4'
 gem 'gettext', '~> 2.3.9'
-gem 'globalize3', :git => 'git://github.com/globalize/globalize.git', :ref => '5fd95f2389dff1'
-gem 'locale', '~> 2.0.8'
-gem 'routing-filter', '~> 0.3.1'
+gem 'ruby_parser', :require => false, :group => :development
+#gem 'globalize3', :git => 'git://github.com/globalize/globalize.git', :ref => '5fd95f2389dff1'
+#gem 'locale', '~> 2.0.8'
+#gem 'routing-filter', '~> 0.3.1'
 gem 'unicode', '~> 0.4.4'
 gem 'unidecoder', '~> 1.1.2'
 
