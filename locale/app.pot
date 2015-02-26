@@ -20,8 +20,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: chillingeffectshk\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-02-24 23:25-0800\n"
-"PO-Revision-Date: 2015-02-24 23:25-0800\n"
+"POT-Creation-Date: 2015-02-25 07:34-0800\n"
+"PO-Revision-Date: 2015-02-25 07:34-0800\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: oktskzy k <oktskzyk@users.noreply.github.com>\n"
 "Language: \n"
@@ -29,6 +29,10 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: app/views/notices/new.html.erb:1
+msgid "Report a Demand"
+msgstr ""
 
 #: app/views/notices/_dmca_form.html.erb:2
 msgid "Report a DMCA Takedown Notice"
@@ -70,6 +74,18 @@ msgstr ""
 msgid "If the notice you sent/received had a subject line, enter it here"
 msgstr ""
 
+#: app/views/notices/_dmca_form.html.erb:18
+msgid "Subject"
+msgstr ""
+
+#: app/views/notices/_dmca_form.html.erb:19
+msgid "Date sent"
+msgstr ""
+
+#: app/views/notices/_dmca_form.html.erb:20
+msgid "Date received"
+msgstr ""
+
 #: app/views/notices/_dmca_form.html.erb:21
 msgid "Sent via"
 msgstr ""
@@ -78,6 +94,134 @@ msgstr ""
 msgid "Online form, Email, Postal mail, etc."
 msgstr ""
 
-#: app/views/notices/_dmca_form.html.erb:36
+#: app/views/notices/_dmca_form.html.erb:22
+msgid "Tag list"
+msgstr ""
+
+#: app/views/notices/_dmca_form.html.erb:22
+msgid "movie, youtube, video, etc."
+msgstr ""
+
+#: app/views/notices/_dmca_form.html.erb:25
+msgid "Topics"
+msgstr ""
+
+#: app/views/notices/_dmca_form.html.erb:30
+msgid "Language"
+msgstr ""
+
+#: app/views/notices/_dmca_form.html.erb:31
+msgid "Jurisdiction"
+msgstr ""
+
+#: app/views/notices/_dmca_form.html.erb:31
+msgid "a list of countries - US, CA, etc."
+msgstr ""
+
+#: app/views/notices/_dmca_form.html.erb:34
+msgid "Action taken"
+msgstr ""
+
+#: app/views/notices/_dmca_form.html.erb:37
 msgid "Did the recipient of the notice take action in response?"
+msgstr ""
+
+#: app/views/notices/_dmca_form.html.erb:42
+msgid "Body"
+msgstr ""
+
+#: app/views/notices/_dmca_form.html.erb:44
+msgid "Attach Notice"
+msgstr ""
+
+#: app/views/notices/_dmca_form.html.erb:45
+msgid "Attach another"
+msgstr ""
+
+#: app/views/notices/_dmca_form.html.erb:52
+msgid "Step 2."
+msgstr ""
+
+#: app/views/notices/_dmca_form.html.erb:52
+msgid "Original Works in Question"
+msgstr ""
+
+#: app/views/notices/_dmca_form.html.erb:53
+msgid "Enter information about the original work(s) and allegedly infringing URL(s)."
+msgstr ""
+
+#: app/views/notices/_dmca_form.html.erb:57
+msgid "Original Work URL"
+msgstr ""
+
+#: app/views/notices/_dmca_form.html.erb:60
+msgid "Allegedly Infringing URL"
+msgstr ""
+
+#: app/views/notices/_dmca_form.html.erb:62
+msgid "Kind of Work"
+msgstr ""
+
+#: app/views/notices/_dmca_form.html.erb:62
+msgid "Movie, Music, Book"
+msgstr ""
+
+#: app/views/notices/_dmca_form.html.erb:65
+msgid "Description"
+msgstr ""
+
+#: app/views/notices/_dmca_form.html.erb:74
+msgid "Step %{step_number}."
+msgstr ""
+
+#: app/views/notices/_dmca_form.html.erb:79
+msgid "Name"
+msgstr ""
+
+#: app/views/notices/_dmca_form.html.erb:84
+msgid "Address Line 1"
+msgstr ""
+
+#: app/views/notices/_dmca_form.html.erb:85
+msgid "Address Line 2"
+msgstr ""
+
+#: app/views/notices/_dmca_form.html.erb:86
+msgid "City"
+msgstr ""
+
+#: app/views/notices/_dmca_form.html.erb:87
+msgid "State"
+msgstr ""
+
+#: app/views/notices/_dmca_form.html.erb:88
+msgid "Zip Code"
+msgstr ""
+
+#: app/views/notices/_dmca_form.html.erb:89
+msgid "Country"
+msgstr ""
+
+#: app/views/notices/_dmca_form.html.erb:90
+msgid "Phone"
+msgstr ""
+
+#: app/views/notices/_dmca_form.html.erb:91
+msgid "Email"
+msgstr ""
+
+#: app/views/notices/_dmca_form.html.erb:100
+msgid "Submit Notice"
+msgstr ""
+
+#: app/views/home/index.html.erb:5
+msgid "The Chilling Effects database collects and analyzes legal complaints and requests for removal of online materials, helping Internet users to know their rights and understand the law. These data enable us to study the prevalence of legal threats and let Internet users see the source of content removals."
+msgstr ""
+
+#: app/views/home/index.html.erb:11
+msgid "Recent Takedown Notices"
+msgstr ""
+
+#: app/views/home/index.html.erb:17
+msgid "From the Blog"
 msgstr ""

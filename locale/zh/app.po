@@ -15,40 +15,49 @@
 # You should have received a copy of the GNU General Public License
 # along with Chillingeffects.  If not, see <http://www.gnu.org/licenses/>.
 # 
-#, fuzzy
+# Translators:
+# oktskzyk <oktskzyk@gmail.com>, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: chillingeffectshk\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-02-24 23:25-0800\n"
-"PO-Revision-Date: 2015-02-24 23:25-0800\n"
-"Last-Translator: oktskzy k <oktskzyk@users.noreply.github.com>\n"
-"Language-Team: oktskzy k <oktskzyk@users.noreply.github.com>\n"
-"Language: \n"
+"POT-Creation-Date: 2015-02-25 07:34-0800\n"
+"PO-Revision-Date: 2015-02-25 16:57+0000\n"
+"Last-Translator: oktskzyk <oktskzyk@gmail.com>\n"
+"Language-Team: Chinese (Hong Kong) (http://www.transifex.com/projects/p/chillingeffectshk/language/zh_HK/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Language: zh_HK\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: app/views/notices/new.html.erb:1
+msgid "Report a Demand"
+msgstr "提供通知書"
 
 #: app/views/notices/_dmca_form.html.erb:2
 msgid "Report a DMCA Takedown Notice"
 msgstr "提供版權條例「指稱侵權通知」"
 
 #: app/views/notices/_dmca_form.html.erb:3
-msgid "If you have sent or received a DMCA takedown notice and want to submit it to our database, fill out the form below."
+msgid ""
+"If you have sent or received a DMCA takedown notice and want to submit it to"
+" our database, fill out the form below."
 msgstr "如果您發出了或收到一份版權條例下的「指稱侵權通知」，並希望將其提交到我們的資料庫，填寫下面的表格。"
 
 #: app/views/notices/_dmca_form.html.erb:4
-msgid "Please do not include phone numbers, email addresses, personal name, or other private information other than those of the complainant."
+msgid ""
+"Please do not include phone numbers, email addresses, personal name, or "
+"other private information other than those of the complainant."
 msgstr "除了發出通知的投訴人的資料，請不要包括電話號碼、電郵地址、個人姓名或其他個人資料等。"
 
 #: app/views/notices/_dmca_form.html.erb:8
 msgid "Step 1."
-msgstr "第一步、"
+msgstr "第 1 步、"
 
 #: app/views/notices/_dmca_form.html.erb:8
 msgid "Describe the Notice"
-msgstr "描述該通知"
+msgstr "描述該通知書"
 
 #: app/views/notices/_dmca_form.html.erb:10
 msgid "Provide us with information about the DMCA takedown notice you"
@@ -70,6 +79,18 @@ msgstr ""
 msgid "If the notice you sent/received had a subject line, enter it here"
 msgstr ""
 
+#: app/views/notices/_dmca_form.html.erb:18
+msgid "Subject"
+msgstr "原電郵標題"
+
+#: app/views/notices/_dmca_form.html.erb:19
+msgid "Date sent"
+msgstr "發出日期"
+
+#: app/views/notices/_dmca_form.html.erb:20
+msgid "Date received"
+msgstr "收件日期"
+
 #: app/views/notices/_dmca_form.html.erb:21
 msgid "Sent via"
 msgstr ""
@@ -78,6 +99,144 @@ msgstr ""
 msgid "Online form, Email, Postal mail, etc."
 msgstr ""
 
-#: app/views/notices/_dmca_form.html.erb:36
+#: app/views/notices/_dmca_form.html.erb:22
+msgid "Tag list"
+msgstr ""
+
+#: app/views/notices/_dmca_form.html.erb:22
+msgid "movie, youtube, video, etc."
+msgstr ""
+
+#: app/views/notices/_dmca_form.html.erb:25
+msgid "Topics"
+msgstr "議題"
+
+#: app/views/notices/_dmca_form.html.erb:30
+msgid "Language"
+msgstr "語言"
+
+#: app/views/notices/_dmca_form.html.erb:31
+msgid "Jurisdiction"
+msgstr "司法管轄權"
+
+#: app/views/notices/_dmca_form.html.erb:31
+msgid "a list of countries - US, CA, etc."
+msgstr ""
+
+#: app/views/notices/_dmca_form.html.erb:34
+msgid "Action taken"
+msgstr "已採取行動"
+
+#: app/views/notices/_dmca_form.html.erb:37
 msgid "Did the recipient of the notice take action in response?"
 msgstr ""
+
+#: app/views/notices/_dmca_form.html.erb:42
+msgid "Body"
+msgstr "文本"
+
+#: app/views/notices/_dmca_form.html.erb:44
+msgid "Attach Notice"
+msgstr ""
+
+#: app/views/notices/_dmca_form.html.erb:45
+msgid "Attach another"
+msgstr ""
+
+#: app/views/notices/_dmca_form.html.erb:52
+msgid "Step 2."
+msgstr "第 2 步、"
+
+#: app/views/notices/_dmca_form.html.erb:52
+msgid "Original Works in Question"
+msgstr "原作品資料"
+
+#: app/views/notices/_dmca_form.html.erb:53
+msgid ""
+"Enter information about the original work(s) and allegedly infringing "
+"URL(s)."
+msgstr ""
+
+#: app/views/notices/_dmca_form.html.erb:57
+msgid "Original Work URL"
+msgstr "原作品網址 (URL)"
+
+#: app/views/notices/_dmca_form.html.erb:60
+msgid "Allegedly Infringing URL"
+msgstr "指稱侵權網址 (URL)"
+
+#: app/views/notices/_dmca_form.html.erb:62
+msgid "Kind of Work"
+msgstr "作品類型"
+
+#: app/views/notices/_dmca_form.html.erb:62
+msgid "Movie, Music, Book"
+msgstr ""
+
+#: app/views/notices/_dmca_form.html.erb:65
+msgid "Description"
+msgstr ""
+
+#: app/views/notices/_dmca_form.html.erb:74
+msgid "Step %{step_number}."
+msgstr "第 %{step_number} 步、"
+
+#: app/views/notices/_dmca_form.html.erb:79
+msgid "Name"
+msgstr ""
+
+#: app/views/notices/_dmca_form.html.erb:84
+msgid "Address Line 1"
+msgstr "地址 (第 1 行)"
+
+#: app/views/notices/_dmca_form.html.erb:85
+msgid "Address Line 2"
+msgstr "地址 (第 2 行)"
+
+#: app/views/notices/_dmca_form.html.erb:86
+msgid "City"
+msgstr "城市或地方"
+
+#: app/views/notices/_dmca_form.html.erb:87
+msgid "State"
+msgstr "州份或省份"
+
+#: app/views/notices/_dmca_form.html.erb:88
+msgid "Zip Code"
+msgstr "郵遞區號"
+
+#: app/views/notices/_dmca_form.html.erb:89
+msgid "Country"
+msgstr "國家或地區"
+
+#: app/views/notices/_dmca_form.html.erb:90
+msgid "Phone"
+msgstr "電話"
+
+#: app/views/notices/_dmca_form.html.erb:91
+msgid "Email"
+msgstr "Email"
+
+#: app/views/notices/_dmca_form.html.erb:100
+msgid "Submit Notice"
+msgstr "提交通知書"
+
+#: app/views/home/index.html.erb:5
+msgid ""
+"The Chilling Effects database collects and analyzes legal complaints and "
+"requests for removal of online materials, helping Internet users to know "
+"their rights and understand the law. These data enable us to study the "
+"prevalence of legal threats and let Internet users see the source of content"
+" removals."
+msgstr "寒蟬效應資料庫收集和分析法律上的投訴與移除網上材料的請求，從而使網民知道自己的權利和了解法律。這些數據使我們能夠研究法律威脅有多普遍，亦讓網民看到的內容投訴的源頭。"
+
+#: app/views/home/index.html.erb:11
+msgid "Recent Takedown Notices"
+msgstr ""
+
+#: app/views/home/index.html.erb:17
+msgid "From the Blog"
+msgstr ""
+
+msgid "Provide us with information about the DMCA takedown notice you <em>sent</em> or <em>received</em>."
+msgstr "Provide us with information about the DMCA takedown notice you <em>sent</em> or <em>receaaaaaaived</em>."
